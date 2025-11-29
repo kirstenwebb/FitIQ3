@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base App Theme using Material 3 -->
+    <style name="Theme.FitIQ3" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+    </style>
+
+    <!-- Card style -->
+    <style name="FitIQ3.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="FitIQ3.Text">
+        <item name="android:textColor">@color/gold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="FitIQ3.Text.Title" parent="FitIQ3.Text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FitIQ3.Text.Body" parent="FitIQ3.Text">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>
